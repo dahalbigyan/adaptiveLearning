@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 const port = 8000;
-const routes = require('router.js');
+const routes = require('./router');
 
-app.use('/', routes); 
+app.use('/', routes);
 
 app.listen(port, ()=>{
   console.log(`Server is listening at port ${port}`)
