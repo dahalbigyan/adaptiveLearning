@@ -39,10 +39,16 @@ actor=%7B"name"%3A%5B"Bigyan%20Dahal"%5D%2C"account"%3A%5B%7B"accountServiceHome
 */
 
 /*
-
   // with localhost endpoint
   http://localhost:3000/SCORM-files/Week-1-Global-Thinking/story_html5.html
   ?actor=%7B%22name%22%3A%5B%22Bigyan%20Dahal%22%5D%2C%22account%22%3A%5B%7B%22accountServiceHomePage%22%3A%22http%3A%2F%2Fcloud.scorm.com%22%2C%22accountName%22%3A%2267VGY0HQL1%7Cbigyan.dahal%40knovva.com%22%7D%5D%2C%22objectType%22%3A%22Agent%22%7D
+  &endpoint=http%3A%2F%2Flocalhost%3A8000%2F
+*/
+
+/*
+  // with localhost endpoint
+  http://localhost:3000/SCORM-files/Week-1-Global-Thinking/story_html5.html
+  ?actor=%7B%0A%22name%22%3A%5B%22Bigyan%20Dahal%22%5D%2C%20%0A%22objectType%22%3A%20%22Agent%22%0A%7D
   &endpoint=http%3A%2F%2Flocalhost%3A8000%2F
 \*/
 
@@ -53,9 +59,9 @@ actor=%7B"name"%3A%5B"Bigyan%20Dahal"%5D%2C"account"%3A%5B%7B"accountServiceHome
   ?stateId=resume
   &activityId=http%3A%2F%2F6NieVUtP5F4_course_id
   &agent=%7B%22objectType%22%3A%22Agent%22%2C%22account%22%3A%7B%22name%22%3A%2267VGY0HQL1%7Cbigyan.dahal%40knovva.com%22%2C%22homePage%22%3A%22http%3A%2F%2Fcloud.scorm.com%22%7D%2C%22name%22%3A%22Bigyan%20Dahal%22%7D
-
-
 */
+
+
 
 /*
 https://cloud.scorm.com/sandbox/content/courses/67VGY0HQL1/123456/0/story_html5.html

@@ -5,7 +5,7 @@ const port = 8000;
 const routes = require('./router');
 const bodyParser = require("body-parser");
 
-app.use(bodyParser.urlencoded({extended:true}));
+app.use(bodyParser.json());
 app.use(cors());
 // app.use('/', routes);
 
@@ -18,14 +18,23 @@ app.get("/statements", (req, res)=>{
   res.send("Calling from the statements route.");
 });
 app.put("/statements", (req, res)=>{
-  console.log(req.body);
-  console.log("Calling from the put statements route.");
+  console.log(Object.keys(req.body));
+  // console.log(req.res);
+  // console.log("Calling from the put statements route.");
   res.send("Calling from the statements route.");
 });
 
 app.get("/activities/state", (req, res)=>{
-  console.log("Calling from the activities/state route.");
-  console.log(req.body);
+  // console.log("Calling from the activities/state route.");
+  // console.log(req.query);
+    /*
+      {
+        stateId: 'resume',
+        activityId: 'http://6NieVUtP5F4_course_id',
+        agent: '{"objectType":"Agent","account":{"name":"67VGY0HQL1|bigyan.dahal@knovva.com","homePage":"http://cloud.scorm.com"},"name":"Bigyan Dahal"}'
+      }
+    */
+
   res.send("Calling from the activities/state route.");
 });
 
