@@ -4,6 +4,7 @@ const app = express();
 const port = 8000;
 const routes = require('./router');
 const bodyParser = require("body-parser");
+const dataservice = require('./dataservice');
 
 app.use(bodyParser.json());
 app.use(cors());
@@ -18,7 +19,8 @@ app.get("/statements", (req, res)=>{
   res.send("Calling from the statements route.");
 });
 app.put("/statements", (req, res)=>{
-  console.log(Object.keys(req.body));
+  // console.log(Object.keys(req.body));
+  dataservice.saveDataToTheGraphCool(req.body);
   // console.log(req.res);
   // console.log("Calling from the put statements route.");
   res.send("Calling from the statements route.");
