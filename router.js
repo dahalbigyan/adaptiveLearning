@@ -19,5 +19,4 @@ router.get("/activities/state", (req, res)=>{
   res.send("Calling from the activities/state route.");
 });
 
-
 module.exports = router;
