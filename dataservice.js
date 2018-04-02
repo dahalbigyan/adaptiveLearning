@@ -17,13 +17,52 @@ function saveDataToTheGraphCool(data){
   //   content: JSON.stringify(data)
   // }
 
-  const query = `{
-  allMovies{
-    id,
-    avgRating
+  // const query = `{
+  //   allMovies{
+  //     id,
+  //     avgRating
+  //   }
+  // }`;
+
+  // const query = `{
+  //   Movie(id:"cje9c5o5rcakg0119pspv1zke"){
+  //     id,
+  //     avgRating
+  //   }
+  // }`
+
+  // const query = `{
+  //   Movie(description:"Shutter Island"){
+  //     id,
+  //     avgRating
+  //   }
+  // }`
+
+
+  // const query = `query getMovie($id: ID!){
+  //   Movie(id: $id){
+  //     id,
+  //     avgRating
+  //   }
+  // }
+  // `;
+  //
+  // const variables = {
+  //   id: "cje9c5o5rcakg0119pspv1zke"
+  // }
+
+  const mutation = `mutation createScorm($content: String!){
+    createScorm(content: $content){
+      id
+    }
   }
-}`;
-  request(endpoint, query).then(data=>console.log(data)).catch(error=>console.log(error));
+  `;
+
+  const variables = {
+    content: "Hello"
+  }
+
+  request(endpoint, mutation, variables).then(data=>console.log(data)).catch(error=>console.log(error));
 };
 
 
