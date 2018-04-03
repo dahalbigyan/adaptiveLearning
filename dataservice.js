@@ -12,15 +12,17 @@ function getUseridAndContent(data){
 function saveDataToTheGraphCool(data){
   const {actorname, actorid} = getUseridAndContent(data);
   data.actor.name = actorname;
-  const mutation = `mutation createScorm($content: Json!){
-    createScorm(content: $content){
+  // const hardCodedId='cje8z1vkv0oje01916fddhi7g';
+  const mutation = `mutation createScorm($content: Json!, $userId: ID!){
+    createScorm(content: $content, userId: $userId){
       id
     }
   }
   `;
 
   const variables = {
-    content: data
+    content: data,
+    userId: hardCodedId
   };
 
   request(endpoint, mutation, variables).then(data=>console.log(data)).catch(error=>console.error(error));
