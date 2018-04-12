@@ -11,11 +11,16 @@ router.get("/statements", (req, res)=>{
 });
 
 router.put("/statements", (req, res)=>{
-  dataservice.saveDataToTheGraphCool(req.body);
+  // dataservice.saveDataToTheGraphCool(req.body);
   res.send("Calling from the statements route.");
 });
 
 router.get("/activities/state", (req, res)=>{
+  res.send("Calling from the activities/state route.");
+});
+
+router.put("/activities/state", (req, res)=>{
+  dataservice.saveDataToTheGraphCool(req);
   res.send("Calling from the activities/state route.");
 });
 
