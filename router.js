@@ -11,7 +11,7 @@ router.get("/statements", (req, res)=>{
 });
 
 router.put("/statements", (req, res)=>{
-  // dataservice.saveDataToTheGraphCool(req.body);
+  dataservice.saveDataToTheGraphCool(req.body);
   res.send("Calling from the statements route.");
 });
 

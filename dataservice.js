@@ -12,7 +12,6 @@ function getUseridAndContent(data){
 function saveDataToTheGraphCool(data){
   // const {actorname, actorid} = getUseridAndContent(data);
   // data.actor.name = actorname;
-  console.log(data.rawBody);
   const hardCodedd='cje8z1vkv0oje01916fddhi7g';
   const mutation = `mutation createScorm($content: Json!, $userId: ID!){
     createScorm(content: $content, userId: $userId){
