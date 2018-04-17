@@ -1,0 +1,1041 @@
+{
+  "tincan": {
+    "$": {
+      "xmlns:xsi": "http:\/\/www.w3.org\/2001\/XMLSchema-instance",
+      "xmlns:xsd": "http:\/\/www.w3.org\/2001\/XMLSchema",
+      "xmlns": "http:\/\/projecttincan.com\/tincan.xsd"
+    },
+    "activities": [
+      {
+        "activity": [
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/course"
+            },
+            "name": [
+              {
+                "_": "Week 1 - Global Thinking",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "launch": [
+              {
+                "_": "story.html",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/5fSWpMjxJrV",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/objective"
+            },
+            "name": [
+              {
+                "_": "Week 1 - Global Thinking",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Week 1 - Global Thinking",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/5yaKOR40fsc",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Knovva Welcome",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Knovva Welcome",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/6T90TSBNufL",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Unit Intro",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Unit Intro",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/67Pbd0ue2Qp",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "What You'll Learn",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "What You'll Learn",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/6rP0cJ17tg1",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "[Video] 100 People",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "[Video] 100 People",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/6JEIADq6LS3",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Review Time",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Review Time",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/6nd1Q0jx2sE",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Quiz Q1",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Quiz Q1",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/6nd1Q0jx2sE\/5eMCaiYLTuu",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/cmi.interaction"
+            },
+            "name": [
+              {
+                "_": "True or False: more people today have access to a mobile network than to electricity  ",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "True or False: more people today have access to a mobile network than to electricity  ",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "interactionType": [
+              "choice"
+            ],
+            "correctResponsePatterns": [
+              {
+                "correctResponsePattern": [
+                  "choice_6iKVeNyjrKY"
+                ]
+              }
+            ],
+            "choices": [
+              {
+                "component": [
+                  {
+                    "id": [
+                      "choice_6iKVeNyjrKY"
+                    ],
+                    "description": [
+                      {
+                        "_": "True",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_5ZO1HX95T54"
+                    ],
+                    "description": [
+                      {
+                        "_": "False",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/5jBD6LvY3Ae",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Quiz Q2",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Quiz Q2",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/5jBD6LvY3Ae\/66b8UCVJw5Y",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/cmi.interaction"
+            },
+            "name": [
+              {
+                "_": "In the global village today, what percent of the population doesn\u2019t have access to clean, safe drinking water? ",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "In the global village today, what percent of the population doesn\u2019t have access to clean, safe drinking water? ",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "interactionType": [
+              "choice"
+            ],
+            "correctResponsePatterns": [
+              {
+                "correctResponsePattern": [
+                  "choice_6VE8wVXMdfs"
+                ]
+              }
+            ],
+            "choices": [
+              {
+                "component": [
+                  {
+                    "id": [
+                      "choice_6VE8wVXMdfs"
+                    ],
+                    "description": [
+                      {
+                        "_": "9%",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_60UgeeigMIp"
+                    ],
+                    "description": [
+                      {
+                        "_": "7%",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_5bjbd4tiS79"
+                    ],
+                    "description": [
+                      {
+                        "_": "15%",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_5rOgiqI4eXD"
+                    ],
+                    "description": [
+                      {
+                        "_": "2%",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/6ppLNIsBxNj",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Quiz Q3",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Quiz Q3",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/6ppLNIsBxNj\/5eQOoGOXJ0N",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/cmi.interaction"
+            },
+            "name": [
+              {
+                "_": "Drag and Arrange the following regions from the most populated world region, to the least populated:",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Drag and Arrange the following regions from the most populated world region, to the least populated:",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "interactionType": [
+              "sequencing"
+            ],
+            "correctResponsePatterns": [
+              {
+                "correctResponsePattern": [
+                  "choice_5ZdpYYLO8aF",
+                  "choice_6fb584vHb4g",
+                  "choice_6H4ZBN2aZEi",
+                  "choice_6F0Wv0qnwV6",
+                  "choice_6iGO1y20d5I",
+                  "choice_5XVIiCPL8RO"
+                ]
+              }
+            ],
+            "choices": [
+              {
+                "component": [
+                  {
+                    "id": [
+                      "choice_5ZdpYYLO8aF"
+                    ],
+                    "description": [
+                      {
+                        "_": "Asia",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_6fb584vHb4g"
+                    ],
+                    "description": [
+                      {
+                        "_": "Africa",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_6H4ZBN2aZEi"
+                    ],
+                    "description": [
+                      {
+                        "_": "Europe ",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_6F0Wv0qnwV6"
+                    ],
+                    "description": [
+                      {
+                        "_": "Latin America and the Caribbean",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_6iGO1y20d5I"
+                    ],
+                    "description": [
+                      {
+                        "_": "North America",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_5XVIiCPL8RO"
+                    ],
+                    "description": [
+                      {
+                        "_": "Australia and neighboring islands (Oceania) ",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/5XllI5becuX",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Benefits of Global",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Benefits of Global",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/5uvbw5TR2n9",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Quiz Q4",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Quiz Q4",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/5uvbw5TR2n9\/6MB3rbwd874",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/cmi.interaction"
+            },
+            "name": [
+              {
+                "_": "Choose the best answer: Why do prestigious colleges and universities encourage students to have a global mindset?",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Choose the best answer: Why do prestigious colleges and universities encourage students to have a global mindset?",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "interactionType": [
+              "choice"
+            ],
+            "correctResponsePatterns": [
+              {
+                "correctResponsePattern": [
+                  "choice_6WxjSbfPHxC"
+                ]
+              }
+            ],
+            "choices": [
+              {
+                "component": [
+                  {
+                    "id": [
+                      "choice_6WTtv0LEBHL"
+                    ],
+                    "description": [
+                      {
+                        "_": "To make it easier for students to practice new languages in-person\nwith native speakers. ",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_6WxjSbfPHxC"
+                    ],
+                    "description": [
+                      {
+                        "_": "To expose students to diverse viewpoints and create a more rich and\neffective educational experience",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_5xmbE79bQcz"
+                    ],
+                    "description": [
+                      {
+                        "_": "To prepare students for internships and careers in whatever country around the world they end up in after graduation.",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/6ohkg8NJ0vd",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Watch & Think ",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Watch & Think ",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/5lNs6JUyh75",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Quiz Q5",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Quiz Q5",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/5lNs6JUyh75\/65z1pJHKn4d",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/cmi.interaction"
+            },
+            "name": [
+              {
+                "_": "According to Hugh Evans (the TED Talk speaker), \u201cGlobal Citizens\u201d identify first and foremost with: ",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "According to Hugh Evans (the TED Talk speaker), \u201cGlobal Citizens\u201d identify first and foremost with: ",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "interactionType": [
+              "choice"
+            ],
+            "correctResponsePatterns": [
+              {
+                "correctResponsePattern": [
+                  "choice_660HK382eCB"
+                ]
+              }
+            ],
+            "choices": [
+              {
+                "component": [
+                  {
+                    "id": [
+                      "choice_6YuWaARgZpc"
+                    ],
+                    "description": [
+                      {
+                        "_": "Their state",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_6o5Qc8f1cMo"
+                    ],
+                    "description": [
+                      {
+                        "_": "Their religious group ",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_6Zmls2waf7o"
+                    ],
+                    "description": [
+                      {
+                        "_": "Their ethnic group ",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_6QwNVj2OWKz"
+                    ],
+                    "description": [
+                      {
+                        "_": "Their town ",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_660HK382eCB"
+                    ],
+                    "description": [
+                      {
+                        "_": "The human race",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/6luwG1r4VtT",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Quiz Q6",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Quiz Q6",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/6luwG1r4VtT\/6NjpPOkZPKL",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/cmi.interaction"
+            },
+            "name": [
+              {
+                "_": "Why does Evans believe global citizens are more powerful today than ever before?",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Why does Evans believe global citizens are more powerful today than ever before?",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "interactionType": [
+              "choice"
+            ],
+            "correctResponsePatterns": [
+              {
+                "correctResponsePattern": [
+                  "choice_64XEW0I4kfB"
+                ]
+              }
+            ],
+            "choices": [
+              {
+                "component": [
+                  {
+                    "id": [
+                      "choice_64XEW0I4kfB"
+                    ],
+                    "description": [
+                      {
+                        "_": "Because the internet and social media give us the ability to communicate globally, with each other and with our governments",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_6B3svrTFjp9"
+                    ],
+                    "description": [
+                      {
+                        "_": "Because of the increased media attention to global citizenship, including endorsements by celebrities like Bono and Alicia Keys",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": [
+                      "choice_68pJowD99vA"
+                    ],
+                    "description": [
+                      {
+                        "_": "Because of the increased visibility of international meetings, including UN general assembly and the G20 summit",
+                        "$": {
+                          "lang": "und"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/5WeqojzVfc1",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Your Learning Goals",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Your Learning Goals",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/5WeqojzVfc1\/5bQMXi6vUAU",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/cmi.interaction"
+            },
+            "name": [
+              {
+                "_": "Now that you know a little about the concept of \u201cglobal thinking\u201d, it\u2019s time to think about what that means to YOU. Is there a global issue you want to learn more about? What skills are you hoping to develop over the following weeks of the online course? What are you hoping to learn about from your interactions with global peers? ",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Now that you know a little about the concept of \u201cglobal thinking\u201d, it\u2019s time to think about what that means to YOU. Is there a global issue you want to learn more about? What skills are you hoping to develop over the following weeks of the online course? What are you hoping to learn about from your interactions with global peers? ",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "interactionType": [
+              "fill-in"
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/6FGQaIoeYwT",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Projects Introduction",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Projects Introduction",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/6IRxIp3Vecm",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Project Requirements ",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Project Requirements ",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/6h8KTUa2yOr",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Project Options",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Project Options",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/6Gcgl5udtUI",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Well Done",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Well Done",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          },
+          {
+            "$": {
+              "id": "http:\/\/6SaaJ2Vk1uK_course_id\/5waQgz4dCh0",
+              "type": "http:\/\/adlnet.gov\/expapi\/activities\/module"
+            },
+            "name": [
+              {
+                "_": "Results",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ],
+            "description": [
+              {
+                "_": "Results",
+                "$": {
+                  "lang": "und"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

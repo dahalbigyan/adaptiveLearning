@@ -1,6 +1,6 @@
 const request = require('graphql-request').request;
 const GraphQLClient = require('graphql-request').GraphQLClient;
-const endpoint = `https://api.graph.cool/simple/v1/cje4lfqbv55gk01570mjrcd44`;
+const endpoint = `https://api.graph.cool/simple/v1/cjb88dwuv1s4b0191np9fmbn3`;
 
 function getUseridAndContent(data){
   const actorLength = data.actor.name.length;
@@ -25,10 +25,37 @@ function saveDataToTheGraphCool(data){
     userId: hardCodedd
   };
 
-  request(endpoint, mutation, variables).then(data=>console.log(data)).catch(error=>console.error(error));
+  request(endpoint, mutation, variables)
+  .then(function(data){
+    console.log(data)
+  })
+  .catch(function(error){
+    console.error(error)});
 };
 
+function getStudentsList(res){
+  const query = `{
+    allUsers(orderBy: createdAt_DESC){
+     id,
+     firstName,
+     lastName
+     scorms(filter: {completion: true}){
+       id,
+       completion
+     }
+   }
+  }`
+;
+request(endpoint, query)
+.then(function(data){
+  res.json({fafa:data});
+})
+.catch(function(error){
+  console.error(error);
+});
+};
 
 module.exports = {
-  saveDataToTheGraphCool: saveDataToTheGraphCool
+  saveDataToTheGraphCool: saveDataToTheGraphCool,
+  getStudentsList: getStudentsList
 };
