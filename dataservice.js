@@ -33,7 +33,7 @@ function saveDataToTheGraphCool(data){
     console.error(error)});
 };
 
-function getStudentsList(res){
+function resolveAfterDataComesBack(){
   const query = `{
     allUsers(orderBy: createdAt_DESC){
      id,
@@ -46,13 +46,20 @@ function getStudentsList(res){
    }
   }`
 ;
-request(endpoint, query)
-.then(function(data){
-  res.json({fafa:data});
-})
-.catch(function(error){
-  console.error(error);
-});
+  return new Promise(resolve=>{
+    request(endpoint, query)
+    .then(function(data){
+      resolve(data) ;
+    })
+    .catch(function(error){
+      console.error(error);
+    });
+  });
+};
+
+async function getStudentsList(res){
+  const data = await resolveAfterDataComesBack();
+  return data;
 };
 
 module.exports = {

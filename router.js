@@ -19,7 +19,10 @@ router.get('/students', (req, res)=>{
   //   console.log("Hello Bigyan.");
   //   res.json({data: "Hello from the timeout function."});
   // }, 10000)
-  dataservice.getStudentsList(res);
+  const data = dataservice.getStudentsList();
+  data.then(function(a){
+    res.json({data:a})
+  });
   // dataservice.getStudentsList().then(resp)=>{
   //   res.json({data: resp})
   // };
