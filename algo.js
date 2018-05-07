@@ -12,6 +12,11 @@ function substrings(str){
   return arr;
 };
 console.log(substrings('abcd'));
+// i = 0 ; i<1; i =1
+//   j = 2 ; 2>0; 1
+//   j = 1; 1>0; 0
+
+
 
 
 // prints all subsequence of a string
