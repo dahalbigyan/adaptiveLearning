@@ -15,7 +15,6 @@ function findMaxSum(arr){
   };
   return currentMaxSum;
 };
-console.log(findMaxSum(arr));
 
 function findMaxSumDynamic(arr){
   let currentMaxSum;
@@ -30,4 +29,3 @@ function findMaxSumDynamic(arr){
   return globalMaxSum;
 };
 
-console.log(findMaxSumDynamic(arr));

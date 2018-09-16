@@ -10,9 +10,7 @@ function getUseridAndContent(data){
 };
 
 function saveDataToTheGraphCool(data){
-  // const {actorname, actorid} = getUseridAndContent(data);
-  // data.actor.name = actorname;
-  const hardCodedd='cje8z1vkv0oje01916fddhi7g';
+  const {actorid} = getUseridAndContent(data);
   const mutation = `mutation createScorm($content: Json!, $userId: ID!){
     createScorm(content: $content, userId: $userId){
       id
@@ -22,11 +20,11 @@ function saveDataToTheGraphCool(data){
 
   const variables = {
     content: data,
-    userId: hardCodedd
+    userId: actorid
   };
 
   request(endpoint, mutation, variables)
-  .then(function(data){
+  .then((data)=>{
     console.log(data)
   })
   .catch(function(error){
@@ -48,18 +46,17 @@ function resolveAfterDataComesBack(){
 ;
   return new Promise(resolve=>{
     request(endpoint, query)
-    .then(function(data){
+    .then((data)=>{
       resolve(data) ;
     })
-    .catch(function(error){
+    .catch((error)=>{
       console.error(error);
     });
   });
 };
 
-async function getStudentsList(res){
-  const data = await resolveAfterDataComesBack();
-  return data;
+async function getStudentsList(){
+  return await resolveAfterDataComesBack();
 };
 
 module.exports = {
