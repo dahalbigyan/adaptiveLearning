@@ -1,16 +1,6 @@
 # adaptiveLearning
 
-xAPI Design
-
-https://www.learningsolutionsmag.com/articles/1526/five-things-a-web-developer-needs-to-know-about-the-xapi
-
-https://www.learningsolutionsmag.com/articles/1523/ten-steps-to-plan--communicate-your-xapi-design-to-a-web-developer
-  - How to develop xAPI statements?
-
-What is tin api?
-https://elearningindustry.com/introduction-tin-can-api
-
-******
+# The idea is to integrate SCORM standard tracking capabilities into the educational content a student consumes.
 
 Statement
   - Most xAPI data is communicated through Statements.
@@ -27,6 +17,18 @@ Statement
   - IRIs
 
 
-  ***
+****
+Some great resources: 
   tin can ai integration with LMS:
   1.https://www.learnupon.com/blog/how-to-publish-to-tin-can-api-with-articulate-storyline-2/
+
+****
+xAPI Design
+
+https://www.learningsolutionsmag.com/articles/1526/five-things-a-web-developer-needs-to-know-about-the-xapi
+
+https://www.learningsolutionsmag.com/articles/1523/ten-steps-to-plan--communicate-your-xapi-design-to-a-web-developer
+  - How to develop xAPI statements?
+
+What is tin api?
+https://elearningindustry.com/introduction-tin-can-api
