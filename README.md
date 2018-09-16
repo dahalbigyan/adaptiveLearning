@@ -18,9 +18,10 @@ Statement
 
 
 ****
-Some great resources: 
-  tin can ai integration with LMS:
-  1.https://www.learnupon.com/blog/how-to-publish-to-tin-can-api-with-articulate-storyline-2/
+# Some great resources: 
+
+tin can ai integration with LMS:
+1.https://www.learnupon.com/blog/how-to-publish-to-tin-can-api-with-articulate-storyline-2/
 
 ****
 xAPI Design
