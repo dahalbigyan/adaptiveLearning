@@ -1,7 +1,2 @@
 node_modules
-./students.json
-./pre.js
-./test.xml
-./algo.js
-./parser.js
-./kadane.js
+.env
